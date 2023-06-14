@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Network</title>
+    <style>
+      div {
+        margin-bottom: 1rem;
+      }
+      label {
+        width: 100px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Form Details-->
+    <form action="#" method="post" enctype="multipart/form-data">
+      <h1>Join a social network</h1>
+      <!--Name-->
+      <div>
+        <label for="fullName">Full Name:</label>
+        <input id="fullName" type="text" name="fullName" required />
+      </div>
+      <!--Email-->
+      <div>
+        <label for="email">Email address:</label>
+        <input id="email" type="email" name="email" required />
+      </div>
+      <!--About yourself-->
+      <div>
+        <label for="about">About you:</label>
+        <textarea id="about" cols="50" rows="3" name="about"></textarea>
+      </div>
+      <!--Picture-->
+      <div>
+        <label for="picture">Photo:</label>
+        <input id="picture" type="file" name="picture" />
+      </div>
+      <!--Submit Button-->
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>

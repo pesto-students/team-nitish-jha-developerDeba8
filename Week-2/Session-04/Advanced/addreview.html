@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Reviews | Add Review</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+    <header>
+      <h1>Restaurant Reviews</h1>
+      <!--Nav bar-->
+      <nav>
+        <a href="./index.html">Home</a> |
+        <a href="./addreview.html">Add Review</a> |
+        <a href="./about.html">About</a>
+      </nav>
+    </header>
+    <!--Add review section-->
+    <section>
+      <h2>Add Review</h2>
+      <!--Form section-->
+      <form action="" method="post" enctype="multipart/form-data">
+        <!--Reviewer-->
+        <div>
+          <label for="name">Name? </label>
+          <input type="text" id="name" name="name" />
+        </div>
+
+        <!--Restaurant dropdown-->
+        <div>
+          <label for="restName">Restaurant Name?</label>
+          <select name="restName" id="restName">
+            <option value="" disabled selected>Choose one....</option>
+            <option value="Biriyani House">Biriyani House</option>
+            <option value="Greek House">Greek House</option>
+          </select>
+        </div>
+
+        <!--Date of visit-->
+        <div>
+          <label for="date">Date of visit?</label>
+          <input type="date" id="date" name="date" />
+        </div>
+
+        <!--Rating-->
+        <div>
+          <label for="rating">Rating</label>
+          <input
+            type="number"
+            max="5"
+            min="1"
+            id="rating"
+            name="rating"
+            value="5"
+          />
+        </div>
+
+        <!--Details comment-->
+        <div>
+          <label for="details">Details?</label>
+          <textarea name="details" id="details" cols="50" rows="5"></textarea>
+        </div>
+
+        <!--Submit btn-->
+        <div>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+    <!--Footer section-->
+    <footer>
+      <p>&copy; 2023 Restaurant Reviews</p>
+    </footer>
+  </body>
+</html>

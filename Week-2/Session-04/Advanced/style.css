@@ -1,0 +1,30 @@
+img {
+  width: 40%;
+  height: 25%;
+}
+
+.checked {
+  color: orange;
+}
+
+.res-overview span {
+  font-weight: bold;
+}
+
+.reviewer span {
+  font-weight: bold;
+}
+
+footer p {
+  font-size: large;
+  font-weight: bold;
+}
+
+form label {
+  width: 150px;
+  display: inline-block;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
